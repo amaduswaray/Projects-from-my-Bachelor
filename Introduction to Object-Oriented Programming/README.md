@@ -11,4 +11,4 @@ The assigmnent was to create a simulation of "Game of life". We had to create a 
 
 
 ### Computer Cluster
-This assigment is about creating a system that has a view over every konponent in a computer cluster. A computer cluster contains multiple racks of nodes, that each has a memory.
+This assigment is about creating a system that has a view over every konponent in a computer cluster. A computer cluster contains multiple racks of nodes, that each has a memory. The files and pictures of the project are whithin the Computer Cluster directory
