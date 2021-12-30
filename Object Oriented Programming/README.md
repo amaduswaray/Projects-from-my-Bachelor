@@ -6,7 +6,7 @@ This is a java course that is focused on object oriented programming. Classes, s
 The course consisted of multiple assigmnents, where some of them would build upon previous assigmnents. I've therefore chosen to include the final version of projects
 
 ### Computer Cluster
-
+This assigment is about creating a system that has a view over every konponent in a computer cluster. A computer cluster contains multiple racks of nodes, that each has a memory. The files and pictures of the project are whithin the Computer Cluster directory
 
 
 ### System for doctors
