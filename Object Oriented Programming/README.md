@@ -20,3 +20,4 @@ This is a program which finds the way out of a labyrinth, from a given spot. I'v
 
 
 ### Dungeon game
+This was our final exam. The game is based on exploring a dungeons, which is represented in rooms. In each room, the player has the option to pick up items, or to sell items. More details are in the dungeon game directory
