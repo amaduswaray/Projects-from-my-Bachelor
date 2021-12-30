@@ -1,0 +1,1314 @@
+Buildhouse1:
+
+Time: 0
+Starting: Task 5
+
+Current Staff: 2
+
+
+
+Time: 4
+Finish: Task 5
+
+Starting: Task 6
+
+Starting: Task 1
+
+Current Staff: 4
+
+
+
+Time: 6
+Finish: Task 6
+
+Current Staff: 2
+
+
+
+Time: 8
+Finish: Task 1
+
+Starting: Task 2
+
+Current Staff: 4
+
+
+
+Time: 14
+Finish: Task 2
+
+Starting: Task 3
+
+Starting: Task 4
+
+Starting: Task 7
+
+Current Staff: 7
+
+
+
+Time: 15
+Finish: Task 3
+
+Finish: Task 4
+
+Current Staff: 2
+
+
+
+Time: 18
+Finish: Task 7
+
+Starting: Task 8
+
+Current Staff: 4
+
+
+
+Time: 22
+Finish: Task 8
+
+Vi har ikke en sykel
+
+Task ID: 5
+Task name: Build-foundation
+Time needed to finish: 4
+Manpower needed to compolete the task: 2
+Earliest Starting time: 0
+Latest start: 0
+Slack: 0
+List of the identities:
+Task 1
+Task 6
+
+
+Task ID: 6
+Task name: Make-floor
+Time needed to finish: 2
+Manpower needed to compolete the task: 2
+Earliest Starting time: 4
+Latest start: 12
+Slack: 8
+List of the identities:
+Task 7
+
+
+Task ID: 1
+Task name: Build-walls
+Time needed to finish: 4
+Manpower needed to compolete the task: 2
+Earliest Starting time: 4
+Latest start: 10
+Slack: 6
+List of the identities:
+Task 2
+Task 3
+
+
+Task ID: 2
+Task name: Build-roofs
+Time needed to finish: 6
+Manpower needed to compolete the task: 4
+Earliest Starting time: 8
+Latest start: 8
+Slack: 0
+List of the identities:
+Task 3
+Task 4
+Task 7
+
+
+Task ID: 3
+Task name: Put-on-wallpapers
+Time needed to finish: 1
+Manpower needed to compolete the task: 2
+Earliest Starting time: 14
+Latest start: 17
+Slack: 3
+List of the identities:
+Task 8
+
+
+Task ID: 4
+Task name: Put-on-tiles
+Time needed to finish: 1
+Manpower needed to compolete the task: 3
+Earliest Starting time: 14
+Latest start: 14
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 7
+Task name: Put-carpet-floor
+Time needed to finish: 4
+Manpower needed to compolete the task: 2
+Earliest Starting time: 14
+Latest start: 14
+Slack: 0
+List of the identities:
+Task 8
+
+
+Task ID: 8
+Task name: Move-in
+Time needed to finish: 4
+Manpower needed to compolete the task: 4
+Earliest Starting time: 18
+Latest start: 18
+Slack: 0
+List of the identities:
+None
+
+Vi har ikke en sykel
+
+
+
+
+
+
+Buildhouse2:
+
+
+Time: 0
+Starting: Task 5
+
+Current Staff: 2
+
+
+
+Time: 4
+Finish: Task 5
+
+
+Task ID: 5
+Task name: Build-foundation
+Time needed to finish: 4
+Manpower needed to compolete the task: 2
+Earliest Starting time: 0
+Latest start: 0
+Slack: 0
+List of the identities:
+Task 1
+
+Vi har en sykel
+Task 1,  depends on Task 5
+
+
+Task 2, Task 3,  depends on Task 1
+
+
+Task 3, Task 4, Task 7,  depends on Task 2
+
+
+Task 8,  depends on Task 3
+
+
+
+
+
+
+Task 6, Task 8,  depends on Task 7
+
+
+Task 1,  depends on Task 6
+
+
+
+examplefigure;
+
+
+Time: 0
+Starting: Task 1
+
+Starting: Task 2
+
+Current Staff: 6
+
+
+
+Time: 3
+Finish: Task 1
+
+Current Staff: 2
+
+
+
+Time: 5
+Finish: Task 2
+
+Starting: Task 3
+
+Starting: Task 4
+
+Current Staff: 6
+
+
+
+Time: 6
+Finish: Task 3
+
+Starting: Task 5
+
+Current Staff: 7
+
+
+
+Time: 7
+Finish: Task 4
+
+Starting: Task 6
+
+Current Staff: 7
+
+
+
+Time: 10
+Finish: Task 5
+
+Current Staff: 4
+
+
+
+Time: 15
+Finish: Task 6
+
+Starting: Task 8
+
+Starting: Task 7
+
+Current Staff: 5
+
+
+
+Time: 16
+Finish: Task 8
+
+Current Staff: 2
+
+
+
+Time: 18
+Finish: Task 7
+
+
+Task ID: 1
+Task name: 1
+Time needed to finish: 3
+Manpower needed to compolete the task: 4
+Earliest Starting time: 0
+Latest start: 2
+Slack: 2
+List of the identities:
+Task 3
+
+
+Task ID: 2
+Task name: 2
+Time needed to finish: 5
+Manpower needed to compolete the task: 2
+Earliest Starting time: 0
+Latest start: 0
+Slack: 0
+List of the identities:
+Task 3
+Task 4
+
+
+Task ID: 3
+Task name: 3
+Time needed to finish: 1
+Manpower needed to compolete the task: 2
+Earliest Starting time: 5
+Latest start: 6
+Slack: 1
+List of the identities:
+Task 5
+Task 6
+
+
+Task ID: 4
+Task name: 4
+Time needed to finish: 2
+Manpower needed to compolete the task: 4
+Earliest Starting time: 5
+Latest start: 5
+Slack: 0
+List of the identities:
+Task 6
+
+
+Task ID: 5
+Task name: 5
+Time needed to finish: 4
+Manpower needed to compolete the task: 3
+Earliest Starting time: 6
+Latest start: 11
+Slack: 5
+List of the identities:
+Task 7
+
+
+Task ID: 6
+Task name: 6
+Time needed to finish: 8
+Manpower needed to compolete the task: 4
+Earliest Starting time: 7
+Latest start: 7
+Slack: 0
+List of the identities:
+Task 7
+Task 8
+
+
+Task ID: 8
+Task name: 8
+Time needed to finish: 1
+Manpower needed to compolete the task: 3
+Earliest Starting time: 15
+Latest start: 15
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 7
+Task name: 7
+Time needed to finish: 3
+Manpower needed to compolete the task: 2
+Earliest Starting time: 15
+Latest start: 15
+Slack: 0
+List of the identities:
+None
+
+Vi har ikke en sykel
+
+
+
+
+buildgarage;
+
+
+
+Time: 0
+Starting: Task 1
+
+Current Staff: 1
+
+
+
+Time: 14280
+Finish: Task 1
+
+Starting: Task 2
+
+Starting: Task 3
+
+Current Staff: 4
+
+
+
+Time: 14284
+Finish: Task 2
+
+Current Staff: 3
+
+
+
+Time: 230182
+Finish: Task 3
+
+Starting: Task 4
+
+Current Staff: 2
+
+
+
+Time: 262316
+Finish: Task 4
+
+Starting: Task 7
+
+Starting: Task 6
+
+Starting: Task 5
+
+Current Staff: 6
+
+
+
+Time: 262331
+Finish: Task 7
+
+Current Staff: 5
+
+
+
+Time: 262458
+Finish: Task 6
+
+Current Staff: 4
+
+
+
+Time: 303548
+Finish: Task 5
+
+Starting: Task 11
+
+Starting: Task 9
+
+Current Staff: 6
+
+
+
+Time: 307873
+Finish: Task 11
+
+Starting: Task 12
+
+Current Staff: 8
+
+
+
+Time: 309675
+Finish: Task 9
+
+Starting: Task 10
+
+Current Staff: 7
+
+
+
+Time: 363997
+Finish: Task 10
+
+Starting: Task 8
+
+Current Staff: 6
+
+
+
+Time: 405242
+Finish: Task 8
+
+Current Staff: 4
+
+
+
+Time: 429351
+Finish: Task 12
+
+Starting: Task 13
+
+Current Staff: 3
+
+
+
+Time: 430593
+Finish: Task 13
+
+Starting: Task 14
+
+Current Staff: 2
+
+
+
+Time: 484913
+Finish: Task 14
+
+
+Task ID: 1
+Task name: get-paperwork
+Time needed to finish: 14280
+Manpower needed to compolete the task: 1
+Earliest Starting time: 0
+Latest start: 0
+Slack: 0
+List of the identities:
+Task 2
+Task 3
+
+
+Task ID: 2
+Task name: call-contractor
+Time needed to finish: 4
+Manpower needed to compolete the task: 1
+Earliest Starting time: 14280
+Latest start: 230178
+Slack: 215898
+List of the identities:
+Task 4
+
+
+Task ID: 3
+Task name: clean-yard
+Time needed to finish: 215902
+Manpower needed to compolete the task: 3
+Earliest Starting time: 14280
+Latest start: 14280
+Slack: 0
+List of the identities:
+Task 4
+
+
+Task ID: 4
+Task name: build-foundation
+Time needed to finish: 32134
+Manpower needed to compolete the task: 2
+Earliest Starting time: 230182
+Latest start: 230182
+Slack: 0
+List of the identities:
+Task 5
+Task 6
+Task 7
+
+
+Task ID: 7
+Task name: call-electrician
+Time needed to finish: 15
+Manpower needed to compolete the task: 1
+Earliest Starting time: 262316
+Latest start: 363982
+Slack: 101666
+List of the identities:
+Task 8
+
+
+Task ID: 6
+Task name: lay-electrical-cables
+Time needed to finish: 142
+Manpower needed to compolete the task: 1
+Earliest Starting time: 262316
+Latest start: 262316
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 5
+Task name: build-wall-support
+Time needed to finish: 41232
+Manpower needed to compolete the task: 4
+Earliest Starting time: 262316
+Latest start: 322765
+Slack: 60449
+List of the identities:
+Task 8
+Task 9
+Task 11
+
+
+Task ID: 11
+Task name: build-stairs
+Time needed to finish: 4325
+Manpower needed to compolete the task: 2
+Earliest Starting time: 303548
+Latest start: 303548
+Slack: 0
+List of the identities:
+Task 12
+
+
+Task ID: 9
+Task name: build-walls
+Time needed to finish: 6127
+Manpower needed to compolete the task: 4
+Earliest Starting time: 303548
+Latest start: 423224
+Slack: 119676
+List of the identities:
+Task 10
+Task 13
+
+
+Task ID: 10
+Task name: add-gate
+Time needed to finish: 54322
+Manpower needed to compolete the task: 3
+Earliest Starting time: 309675
+Latest start: 309675
+Slack: 0
+List of the identities:
+Task 8
+
+
+Task ID: 8
+Task name: install-electrical-gate-opener
+Time needed to finish: 41245
+Manpower needed to compolete the task: 2
+Earliest Starting time: 363997
+Latest start: 363997
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 12
+Task name: add-2nd-floor
+Time needed to finish: 121478
+Manpower needed to compolete the task: 4
+Earliest Starting time: 307873
+Latest start: 307873
+Slack: 0
+List of the identities:
+Task 13
+
+
+Task ID: 13
+Task name: isolate-room
+Time needed to finish: 1242
+Manpower needed to compolete the task: 3
+Earliest Starting time: 429351
+Latest start: 429351
+Slack: 0
+List of the identities:
+Task 14
+
+
+Task ID: 14
+Task name: furnish-appartment
+Time needed to finish: 54320
+Manpower needed to compolete the task: 2
+Earliest Starting time: 430593
+Latest start: 430593
+Slack: 0
+List of the identities:
+None
+
+Vi har ikke en sykel
+
+
+
+buildrail:
+
+
+
+
+Time: 0
+Starting: Task 9
+
+Current Staff: 10
+
+
+
+Time: 3
+Finish: Task 9
+
+Starting: Task 11
+
+Starting: Task 10
+
+Starting: Task 14
+
+Starting: Task 12
+
+Starting: Task 16
+
+Starting: Task 17
+
+Current Staff: 56
+
+
+
+Time: 4
+Finish: Task 11
+
+Starting: Task 20
+
+Starting: Task 19
+
+Starting: Task 18
+
+Current Staff: 64
+
+
+
+Time: 5
+Finish: Task 10
+
+Starting: Task 2
+
+Current Staff: 70
+
+
+
+Time: 12
+Finish: Task 2
+
+Current Staff: 60
+
+
+
+Time: 16
+Finish: Task 20
+
+Starting: Task 23
+
+Current Staff: 61
+
+
+
+Time: 28
+Finish: Task 14
+
+Starting: Task 15
+
+Current Staff: 61
+
+
+
+Time: 29
+Finish: Task 19
+
+Current Staff: 57
+
+
+
+Time: 33
+Finish: Task 12
+
+Starting: Task 13
+
+Current Staff: 57
+
+
+
+Time: 38
+Finish: Task 16
+
+Current Staff: 45
+
+
+
+Time: 44
+Finish: Task 18
+
+Starting: Task 21
+
+Current Staff: 46
+
+
+
+Time: 46
+Finish: Task 23
+
+Starting: Task 26
+
+Current Staff: 48
+
+
+
+Time: 48
+Finish: Task 15
+
+Finish: Task 17
+
+Starting: Task 22
+
+Current Staff: 29
+
+
+
+Time: 51
+Finish: Task 13
+
+Starting: Task 8
+
+Current Staff: 24
+
+
+
+Time: 59
+Finish: Task 21
+
+Starting: Task 24
+
+Current Staff: 26
+
+
+
+Time: 63
+Finish: Task 8
+
+Starting: Task 3
+
+Current Staff: 29
+
+
+
+Time: 64
+Finish: Task 3
+
+Finish: Task 22
+
+Starting: Task 25
+
+Current Staff: 21
+
+
+
+Time: 66
+Finish: Task 26
+
+Current Staff: 14
+
+
+
+Time: 119
+Finish: Task 24
+
+Starting: Task 4
+
+Current Staff: 13
+
+
+
+Time: 124
+Finish: Task 25
+
+Starting: Task 5
+
+Starting: Task 27
+
+Current Staff: 22
+
+
+
+Time: 134
+Finish: Task 4
+
+Current Staff: 16
+
+
+
+Time: 136
+Finish: Task 5
+
+Current Staff: 10
+
+
+
+Time: 149
+Finish: Task 27
+
+Starting: Task 28
+
+Starting: Task 29
+
+Current Staff: 20
+
+
+
+Time: 179
+Finish: Task 28
+
+Current Staff: 10
+
+
+
+Time: 186
+Finish: Task 29
+
+Starting: Task 7
+
+Starting: Task 30
+
+Starting: Task 1
+
+Starting: Task 6
+
+Current Staff: 29
+
+
+
+Time: 204
+Finish: Task 7
+
+Current Staff: 23
+
+
+
+Time: 206
+Finish: Task 30
+
+Starting: Task 31
+
+Finish: Task 1
+
+Current Staff: 13
+
+
+
+Time: 213
+Finish: Task 6
+
+Current Staff: 7
+
+
+
+Time: 218
+Finish: Task 31
+
+
+Task ID: 9
+Task name: Setup-barrack
+Time needed to finish: 3
+Manpower needed to compolete the task: 10
+Earliest Starting time: 0
+Latest start: 0
+Slack: 0
+List of the identities:
+Task 10
+Task 11
+Task 12
+Task 14
+Task 16
+Task 17
+
+
+Task ID: 11
+Task name: Rig-ramspace-reinforcing
+Time needed to finish: 1
+Manpower needed to compolete the task: 4
+Earliest Starting time: 3
+Latest start: 3
+Slack: 0
+List of the identities:
+Task 18
+Task 19
+Task 20
+
+
+Task ID: 10
+Task name: Prepare-storage
+Time needed to finish: 2
+Manpower needed to compolete the task: 4
+Earliest Starting time: 3
+Latest start: 3
+Slack: 0
+List of the identities:
+Task 2
+
+
+Task ID: 2
+Task name: Install-railing
+Time needed to finish: 7
+Manpower needed to compolete the task: 10
+Earliest Starting time: 5
+Latest start: 5
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 20
+Task name: Make-armouring-arch
+Time needed to finish: 12
+Manpower needed to compolete the task: 4
+Earliest Starting time: 4
+Latest start: 4
+Slack: 0
+List of the identities:
+Task 23
+
+
+Task ID: 14
+Task name: Build-intersection
+Time needed to finish: 25
+Manpower needed to compolete the task: 12
+Earliest Starting time: 3
+Latest start: 3
+Slack: 0
+List of the identities:
+Task 15
+
+
+Task ID: 15
+Task name: Clean-intersection
+Time needed to finish: 20
+Manpower needed to compolete the task: 12
+Earliest Starting time: 28
+Latest start: 31
+Slack: 3
+List of the identities:
+Task 8
+
+
+Task ID: 19
+Task name: Make-armouring-tower-2
+Time needed to finish: 25
+Manpower needed to compolete the task: 4
+Earliest Starting time: 4
+Latest start: 23
+Slack: 19
+List of the identities:
+Task 22
+
+
+Task ID: 12
+Task name: Build-tunnel
+Time needed to finish: 30
+Manpower needed to compolete the task: 12
+Earliest Starting time: 3
+Latest start: 3
+Slack: 0
+List of the identities:
+Task 13
+
+
+Task ID: 13
+Task name: Clean-tunnel
+Time needed to finish: 18
+Manpower needed to compolete the task: 12
+Earliest Starting time: 33
+Latest start: 33
+Slack: 0
+List of the identities:
+Task 8
+
+
+Task ID: 8
+Task name: Put-lane-tunnel-and-intersection
+Time needed to finish: 12
+Manpower needed to compolete the task: 7
+Earliest Starting time: 51
+Latest start: 194
+Slack: 143
+List of the identities:
+Task 3
+Task 31
+
+
+Task ID: 3
+Task name: Install-ticketmachine
+Time needed to finish: 1
+Manpower needed to compolete the task: 10
+Earliest Starting time: 63
+Latest start: 63
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 23
+Task name: Encase-and-armour-arch
+Time needed to finish: 30
+Manpower needed to compolete the task: 5
+Earliest Starting time: 16
+Latest start: 16
+Slack: 0
+List of the identities:
+Task 26
+
+
+Task ID: 26
+Task name: Cast-arch
+Time needed to finish: 20
+Manpower needed to compolete the task: 7
+Earliest Starting time: 46
+Latest start: 186
+Slack: 140
+List of the identities:
+Task 31
+
+
+Task ID: 16
+Task name: Build-towerfoundation-1
+Time needed to finish: 35
+Manpower needed to compolete the task: 12
+Earliest Starting time: 3
+Latest start: 9
+Slack: 6
+List of the identities:
+Task 21
+
+
+Task ID: 18
+Task name: Make-armouring-tower-1
+Time needed to finish: 40
+Manpower needed to compolete the task: 4
+Earliest Starting time: 4
+Latest start: 4
+Slack: 0
+List of the identities:
+Task 21
+
+
+Task ID: 21
+Task name: Encase-and-armour-tower-1
+Time needed to finish: 15
+Manpower needed to compolete the task: 5
+Earliest Starting time: 44
+Latest start: 44
+Slack: 0
+List of the identities:
+Task 24
+
+
+Task ID: 17
+Task name: Build-towerfoundation-2
+Time needed to finish: 45
+Manpower needed to compolete the task: 12
+Earliest Starting time: 3
+Latest start: 3
+Slack: 0
+List of the identities:
+Task 22
+
+
+Task ID: 22
+Task name: Encase-and-armour-tower-2
+Time needed to finish: 16
+Manpower needed to compolete the task: 5
+Earliest Starting time: 48
+Latest start: 48
+Slack: 0
+List of the identities:
+Task 25
+
+
+Task ID: 24
+Task name: Cast-tower-1
+Time needed to finish: 60
+Manpower needed to compolete the task: 7
+Earliest Starting time: 59
+Latest start: 64
+Slack: 5
+List of the identities:
+Task 4
+Task 27
+
+
+Task ID: 4
+Task name: Paint-tower-1-with-arch
+Time needed to finish: 15
+Manpower needed to compolete the task: 6
+Earliest Starting time: 119
+Latest start: 119
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 25
+Task name: Cast-tower-2
+Time needed to finish: 60
+Manpower needed to compolete the task: 7
+Earliest Starting time: 64
+Latest start: 64
+Slack: 0
+List of the identities:
+Task 5
+Task 27
+
+
+Task ID: 5
+Task name: Paint-tower-2
+Time needed to finish: 12
+Manpower needed to compolete the task: 6
+Earliest Starting time: 124
+Latest start: 124
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 27
+Task name: Stretch-two-maincables
+Time needed to finish: 25
+Manpower needed to compolete the task: 10
+Earliest Starting time: 124
+Latest start: 124
+Slack: 0
+List of the identities:
+Task 28
+Task 29
+
+
+Task ID: 28
+Task name: Build-truss-1-with-rods
+Time needed to finish: 30
+Manpower needed to compolete the task: 10
+Earliest Starting time: 149
+Latest start: 156
+Slack: 7
+List of the identities:
+Task 1
+Task 6
+Task 7
+Task 30
+
+
+Task ID: 29
+Task name: Build-truss-2-with-rods
+Time needed to finish: 37
+Manpower needed to compolete the task: 10
+Earliest Starting time: 149
+Latest start: 149
+Slack: 0
+List of the identities:
+Task 1
+Task 6
+Task 7
+Task 30
+
+
+Task ID: 7
+Task name: Paint-cables-and-rods
+Time needed to finish: 18
+Manpower needed to compolete the task: 6
+Earliest Starting time: 186
+Latest start: 186
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 30
+Task name: Cast-lane-on-truss
+Time needed to finish: 20
+Manpower needed to compolete the task: 7
+Earliest Starting time: 186
+Latest start: 186
+Slack: 0
+List of the identities:
+Task 31
+
+
+Task ID: 31
+Task name: Polish-lane-on-arch
+Time needed to finish: 12
+Manpower needed to compolete the task: 7
+Earliest Starting time: 206
+Latest start: 206
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 1
+Task name: Install-pavement
+Time needed to finish: 20
+Manpower needed to compolete the task: 10
+Earliest Starting time: 186
+Latest start: 186
+Slack: 0
+List of the identities:
+None
+
+
+Task ID: 6
+Task name: Paint-trusses
+Time needed to finish: 27
+Manpower needed to compolete the task: 6
+Earliest Starting time: 186
+Latest start: 186
+Slack: 0
+List of the identities:
+None
+
+Vi har ikke en sykel
