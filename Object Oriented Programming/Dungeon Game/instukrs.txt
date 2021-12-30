@@ -1,0 +1,6 @@
+lag traad klasse
+gi den parameter terreng og terminal
+ lag en spiller klasse i traad klassen ved bruk av parameterene
+
+ Run metoden skal kjøre nytt trekk.
+ bruk join metoden slik at 1 og 1 traad får tilgang til kistene.
