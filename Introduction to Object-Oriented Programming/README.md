@@ -1,4 +1,4 @@
-# IN1000: Introduction to Object Oriented Programming
+# IN1000 - Introduction to Object Oriented Programming
 This course is an introduction to and gives a good base for further studies within computational science, but it´s also suited for those who just wish to understand what programming is. The course doesn´t presuppose any knowledge of programming. It´ll be given a beginners introduction to Python and how to develop algorithms, included the use of lists, files and communication with user. Particular emphasis is placed on object-oriented programming.
 
 ## Assignments
