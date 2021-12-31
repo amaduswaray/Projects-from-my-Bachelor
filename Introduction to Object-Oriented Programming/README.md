@@ -1,5 +1,5 @@
 # IN1000: Introduction to Object Oriented Programming
-IN1000 is a introductury level programming course used to teach the basics of programming. Python is the language which is used.
+This course is an introduction to and gives a good base for further studies within computational science, but it´s also suited for those who just wish to understand what programming is. The course doesn´t presuppose any knowledge of programming. It´ll be given a beginners introduction to Python and how to develop algorithms, included the use of lists, files and communication with user. Particular emphasis is placed on object-oriented programming.
 
 ## Assignments
 Most of the assignments in this course had a focus around the basic concepts of programming. Such as statements, variables, loops and data structures. I've chosen two of the more furfilling assignments for this repository.
