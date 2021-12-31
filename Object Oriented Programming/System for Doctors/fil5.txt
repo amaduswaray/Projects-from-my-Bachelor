@@ -1,0 +1,8 @@
+#Pasienter (navn, fnr)
+Amadu,321
+#Legemiddler (navn, type, pris, virkestoff, [styrke])
+Molly,narkotisk,240.0,200.0,4
+#Leger (navn, kontrollid /0 hvis vanlig lege)
+Dr. Nima,123
+#Resepter (legemiddelNummer, legeNavn, pasientID, type, [reit])
+0,Dr. Nima,0,blaa,2
