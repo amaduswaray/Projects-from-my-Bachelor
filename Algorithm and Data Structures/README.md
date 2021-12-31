@@ -1,14 +1,5 @@
-# IN2010: Algorithms and Data Structures
-This is a theory heavy course where we lern about different algorithms and data structures, and how they function. The theories thaught in this course includes:
-- Binary trees
-- AVL trees
-- Heaps
-- Graphs and Graph theory
-- Graph traversal
-- Shortest path algorithms
-- Sorting algorithms(bubble, insertion, selection, heap)
-- Faster sorting algorithms(quick, bucket, radix)
-- P and NP
+# IN2010 - Algorithms and Data Structures
+The course provides a review of data structures such as stacks, trees, graphs, hash tables and priority queues, as well as algorithms for sorting, searching, insertion, and so on. Various implementations are assessed with emphasis on efficiency, program structure and abstract data types. Important elements of the subject are recursive programming as well as assessment and description of the programs effectiveness.
 
 
 ## Assigmnents
