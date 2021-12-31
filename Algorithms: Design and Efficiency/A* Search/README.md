@@ -10,3 +10,6 @@ The exercise is to write a program for solving the 8-puzzle and 15-puzzle; in ge
 ### The change of states can be represented as a graph:
 
 <img width="439" alt="image" src="https://user-images.githubusercontent.com/86655546/147826382-b0bd7085-f303-4dd6-ba42-1f072704e390.png">
+
+#### The A* algoruthm is used to find the shortest path to our final state
+With A* we had to implement a heuristic function. One could simply be a function that counts the misplaced tiles. However, I chose to use the manhattan heuristic, which checks each tile and calculates how many steps it has to go to reach the final step. Then it takes the sum of the steps needed from each tile.
