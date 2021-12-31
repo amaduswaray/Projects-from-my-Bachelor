@@ -9,3 +9,6 @@ The graph is a directed graph, i.e. the capacity from vertex u to vertex v can b
 
 The input is the size of the matrix, followed up the matrix which represents the flow between each node(index).
 The output shows the optimal flow, cut, steps and and a new matrix with the remaining flow between each node(index).
+
+### Example graph
+<img width="335" alt="image" src="https://user-images.githubusercontent.com/86655546/147826889-a11ec973-384a-4cb4-b461-e321b35757e6.png">
