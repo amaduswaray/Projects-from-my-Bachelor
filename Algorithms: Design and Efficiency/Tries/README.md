@@ -1,1 +1,2 @@
-
+# Tries
+ Write a program that builds an uncompressed trie from a collection C of strings, and then searches this trie for a number of given strings. For simplicity we assume the strings consist only of lower-case letters. Repeated insertions of already existing strings are accepted. You are free to choose how to implement access from a node to the relevant subnode, and how new nodes are inserted when necessary.
